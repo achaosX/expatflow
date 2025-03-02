@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Haz que tu Tienda de Accesorios Brille!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff9800',
+                        secondary: '#ff4081',
+                        accent: '#4caf50',
+                        dark: '#212121',
+                    },
+                    fontFamily: {
+                        corporate: ['Poppins', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-corporate">
+    
+    <!-- Hero Section -->
+    <header class="relative bg-cover bg-center h-screen text-white flex items-center justify-center text-center" style="background-image: url('https://img.freepik.com/foto-gratis/chica-guapa-pelo-largo-esta-sentada-silla-sobre-fondo-naranja-lleva-jeans-sueter-amarillo-tiene-portatil-maleta-cerca-ella-esta-hablando-telefono_197531-484.jpg?w=740');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center px-6 py-10">
+            <h1 class="text-6xl font-bold drop-shadow-lg">✨ Eleva tu Tienda Online al Siguiente Nivel ✨</h1>
+            <p class="text-2xl mt-6 max-w-3xl">Dale más brillo a tus ventas con estrategias ganadoras, tecnología avanzada y un diseño que enamora.</p>
+            <a href="#solucion" class="mt-8 px-10 py-4 bg-secondary text-white text-xl font-semibold rounded-full shadow-lg hover:bg-pink-600 transition">¡Quiero Saber Más!</a>
+        </div>
+    </header>
+    
+    <!-- Sección: Nuestra Solución -->
+    <section id="solucion" class="py-16 px-8 text-center bg-white">
+        <h2 class="text-5xl font-bold text-dark">💡 La Clave para Triunfar en tu Negocio Online</h2>
+        <p class="mt-6 text-xl text-gray-700">Convierte visitantes en clientes fieles con nuestra solución hecha a medida para emprendedores como tú.</p>
+        <div class="flex flex-wrap justify-center mt-10">
+            <div class="max-w-sm bg-gray-50 p-6 m-4 shadow-lg rounded-lg border-l-8 border-primary">
+                <img src="https://img.freepik.com/foto-gratis/busca-inspiracion-foto-exterior-chico-guapo-moda-barba-prolija_343059-3674.jpg?w=1060" class="w-full h-48 object-cover rounded-md" alt="Optimización">
+                <h3 class="text-2xl font-semibold mt-5">🚀 Optimización Web</h3>
+                <p class="text-gray-600 mt-3">Mejora el diseño, la velocidad y la experiencia de compra en tu tienda.</p>
+            </div>
+            <div class="max-w-sm bg-gray-50 p-6 m-4 shadow-lg rounded-lg border-l-8 border-accent">
+                <img src="https://img.freepik.com/foto-gratis/hombre-tiro-medio-hablando-telefono_23-2148895172.jpg?w=740" class="w-full h-48 object-cover rounded-md" alt="Estrategia">
+                <h3 class="text-2xl font-semibold mt-5">📊 Estrategia de Marketing</h3>
+                <p class="text-gray-600 mt-3">Atrae clientes con tácticas de conversión y fidelización que realmente funcionan.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección: Beneficios -->
+    <section class="py-16 px-8 bg-accent text-white text-center">
+        <h2 class="text-5xl font-bold">🌟 ¡Beneficios que Marcan la Diferencia! 🌟</h2>
+        <div class="mt-10 flex flex-wrap justify-center">
+            <div class="max-w-md p-6 m-4 bg-white text-dark shadow-lg rounded-lg">
+                <h3 class="text-2xl font-semibold">🔍 Mayor Visibilidad</h3>
+                <p class="text-gray-600 mt-3">Lleva tu tienda a los primeros resultados de búsqueda y multiplica tu audiencia.</p>
+            </div>
+            <div class="max-w-md p-6 m-4 bg-white text-dark shadow-lg rounded-lg">
+                <h3 class="text-2xl font-semibold">💰 Más Ventas</h3>
+                <p class="text-gray-600 mt-3">Convierte visitantes en clientes con un sitio optimizado para el éxito.</p>
+            </div>
+            <div class="max-w-md p-6 m-4 bg-white text-dark shadow-lg rounded-lg">
+                <h3 class="text-2xl font-semibold">🤖 Automatización Inteligente</h3>
+                <p class="text-gray-600 mt-3">Ahorra tiempo y mejora tu gestión con herramientas automáticas.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección: Testimonios -->
+    <section class="py-16 px-8 bg-white text-center">
+        <h2 class="text-5xl font-bold text-dark">💬 Lo que dicen nuestros clientes</h2>
+        <div class="flex flex-wrap justify-center mt-10">
+            <div class="max-w-sm bg-gray-50 p-6 m-4 shadow-lg rounded-lg border-l-8 border-primary">
+                <p class="text-gray-600">"Desde que optimicé mi tienda con su ayuda, mis ventas han subido un 40% en solo 3 meses."</p>
+                <p class="text-secondary mt-5 font-semibold">- María Rodríguez, Emprendedora</p>
+            </div>
+            <div class="max-w-sm bg-gray-50 p-6 m-4 shadow-lg rounded-lg border-l-8 border-accent">
+                <p class="text-gray-600">"Mi tienda ahora es más rápida y atractiva. ¡Mis clientes lo notan y compran más!"</p>
+                <p class="text-secondary mt-5 font-semibold">- Juan Pérez, Dueño de E-commerce</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección: Contacto -->
+    <footer class="py-12 bg-dark text-white text-center">
+        <h2 class="text-4xl font-bold">🚀 ¿Listo para Despegar?</h2>
+        <p class="mt-6 text-xl">Contáctanos en <span class="text-primary">albertchaos@gmail.com</span> y empieza hoy mismo.</p>
+    </footer>
+</body>
+</html>
